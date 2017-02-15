@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.license     = 'MIT'
   s.platform    = :ios, '5.0'
   s.summary     = "Display and interact with SVG Images on iOS, using native rendering (CoreAnimation)."
-  s.homepage = 'https://github.com/SVGKit/SVGKit'
+  s.homepage = 'https://github.com/DBarsukov/SVGKit'
   s.author   = { 'Steven Fusco'    => 'github@stevenfusco.com',
                  'adamgit'         => 'adam.m.s.martin@gmail.com',
                  'Kevin Stich'     => 'stich@50cubes.com',
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.libraries = 'xml2'
   s.framework = 'QuartzCore', 'CoreText'
-  s.dependency 'CocoaLumberjack', '~> 2.x'
+  s.dependency 'CocoaLumberjack'
   s.prefix_header_file = 'SVGKitLibrary/SVGKit-iOS/SVGKit-iOS-Prefix.pch'
   s.requires_arc = true
   s.xcconfig = {
